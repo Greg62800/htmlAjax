@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ajouter un article</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div id="article"></div>
+        <h2 class="page-header">
+            Ajouter un article
+            <small><span id="success"></span></small>
+        </h2>
+
+        <form id="addPost" method="post">
+            <div class="form-group">
+                <label for="name">Titre</label>
+                <input type="text" name="name" id="name" class="form-control">
+                <div id="error_name"></div>
+            </div>
+            <div class="form-group">
+                <label for="content">Contenu</label>
+                <textarea name="content" id="content" class="form-control"></textarea>
+                <div id="error_content"></div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">
+                    Ajouter
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
