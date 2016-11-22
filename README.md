@@ -1,4 +1,4 @@
 # htmlAjax
 
 -
-  Thème: Bootstap FlatLy
+  Thème: Bootstrap FlatLy
